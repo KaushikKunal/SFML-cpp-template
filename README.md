@@ -3,7 +3,10 @@
 This is a super basic SFML template for Mac with VSCode. You shouldn't have to download anything.
 
 ## Running
-Building and running the code is done with  `Makefile`. Therefore all you have to do is `cd src/` and run `make`.
+Building and running the code is done with  `Makefile`. Therefore all you have to do is `cd sfml_template/` and run `make`. The executable `main` will be located in `bin/`, and can be run with the following command-
+```bash
+export LD_LIBRARY_PATH=src/sfml/lib && ./bin/main
+```
 
 ## Debugging
 If you run into linking errors, remap the libraries. For example, if you get the following error...
